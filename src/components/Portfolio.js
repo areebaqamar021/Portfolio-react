@@ -19,12 +19,13 @@ import project6 from "../images/react.png";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#233",
+    background: "#002146",
     height: "100%",
   },
   cardContainer: {
     maxWidth: 345,
     margin: "3rem auto",
+    backgroundColor: "#FFE4B5"
   },
 }));
 

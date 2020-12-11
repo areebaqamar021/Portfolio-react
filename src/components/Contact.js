@@ -10,52 +10,57 @@ import Send from "@material-ui/icons/Send";
 
 const useStyles = makeStyles((theme) => ({
   contactContainer: {
-    background: "#233",
+    background: "#002146",
     height: "100vh",
   },
   heading: {
-    color: "tomato",
+    color: "#FFE4B5",
     textAlign: "center",
-    textTransform: "uppercase",
     marginBottom: "1rem",
+    fontFamily: "'Bree Serif', serif",
   },
   form: {
     top: "50%",
     left: "50%",
     transform: "translate(-50%, -50%)",
     position: "absolute",
+    fontFamily: "'Bree Serif', serif",
   },
   input: {
-    color: "#fff",
+    color: "#FFE4B5",
+    fontFamily: "'Bree Serif', serif",
   },
   button: {
     marginTop: "1rem",
-    color: "tomato",
-    borderColor: "tan",
+    color: "#FFE4B5",
+    borderColor: "#FFE4B5",
+    fontFamily: "'Bree Serif', serif",
+    fontSize: "20px"
   },
   field: {
     margin: "1rem 0rem",
+    fontFamily: "'Bree Serif', serif",
   },
 }));
 
 const InputField = withStyles({
   root: {
     "& label.Mui-focused": {
-      color: "tomato",
+      color: "#FFE4B5",
     },
     "& label": {
-      color: "tan",
+      color: "#FFE4B5",
     },
     "& .MuiOutlinedInput-root": {
       "& fieldset": {
-        borderColor: "tan",
+        borderColor: "#FFE4B5",
       },
       "&:hover fieldset": {
-        borderColor: "tan",
+        borderColor: "#FFE4B5",
       },
       "&.Mui-focused fieldset": {
         color: "#fff",
-        borderColor: "tan",
+        borderColor: "#FFE4B5",
       },
     },
   },
@@ -68,7 +73,7 @@ const Contact = () => {
       <Grid container justify="center">
         <Box component="form" className={classes.form}>
           <Typography variant="h5" className={classes.heading}>
-            Hire or Contact me...
+            <h2>Hire Or Contact Me...</h2>
           </Typography>
           <InputField
             fullWidth={true}

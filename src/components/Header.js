@@ -14,12 +14,15 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(1),
   },
   title: {
-    color: "#fff",
+    color: "#FFE4B5",
     fontSize: '40px',
+    fontFamily: "'Bree Serif', serif",
   },
   subtitle: {
-    color: "#fff",
+    color: "#FFE4B5",
     fontSize: '45px',
+    fontFamily: "'Bree Serif', serif",
+
   },
   typedContainer: {
     position: "absolute",
