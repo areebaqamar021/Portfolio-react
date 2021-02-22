@@ -1,1 +1,1 @@
-demo https://portfolio-react-appp.herokuapp.com/
+demo https://portfolio-static-react.netlify.app/
